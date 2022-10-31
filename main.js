@@ -1,3 +1,10 @@
+const button = document.getElementById("btn");
+
+
+btn.addEventListener('click', function onclick() {
+    btn.style.backgroundColor = 'rgb(176, 174, 174)';
+    btn.style.backgroundColor = 'orange';
+})
 
 
 
@@ -29,3 +36,6 @@ function complete() {
     clearInterval(timer);
     timer = null;
 }
+
+
+
